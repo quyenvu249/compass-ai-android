@@ -2,6 +2,10 @@ plugins {
     id("compassai.android.compose")
 }
 
+android {
+    namespace = "com.compassai.core.ui"
+}
+
 dependencies {
     implementation(libs.bundles.compose)
     implementation(libs.bundles.lifecycle)

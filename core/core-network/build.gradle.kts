@@ -3,6 +3,10 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
 }
 
+android {
+    namespace = "com.compassai.core.network"
+}
+
 dependencies {
     implementation(libs.bundles.networking)
     implementation(libs.kotlinx.coroutines.android)

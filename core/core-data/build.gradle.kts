@@ -5,6 +5,10 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
 }
 
+android {
+    namespace = "com.compassai.core.data"
+}
+
 dependencies {
     implementation(project(":core:core-domain"))
     implementation(project(":core:core-network"))

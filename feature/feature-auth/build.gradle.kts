@@ -2,6 +2,10 @@ plugins {
     id("compassai.android.feature")
 }
 
+android {
+    namespace = "com.compassai.feature.auth"
+}
+
 dependencies {
     implementation(project(":core:core-data"))
     implementation(project(":core:core-network"))
